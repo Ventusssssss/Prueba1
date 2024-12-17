@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../10.Imagenes/wallpaperbetter.jpg');
+    background-size: cover;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap; /* Hace que los productos salten a la siguiente línea */
+    justify-content: center; /*centador de productos*/
+    padding: 20px;
+}
+
+.producto {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: calc(20% - 20px); /* Ajusta el ancho de los productos (20% con márgenes) */
+}
+
+.boton-comprar {
+   
+background: linear-gradient(90deg, rgba(73,0,97,1) 0%, rgba(139,0,163,1) 50%, rgba(255,0,241,1) 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar {
+    text-align: center;
+    padding-top: 10px; /* Nota: margenes barra de busqueda no tocar mucho*/
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+#search-input {
+    padding: 10px;
+    background-color: #444; 
+    color: white; 
+    border: none; 
+    border-radius: 0; 
+    margin-right: 10px;
+    width: 70%; 
+}
+
+#search-button {
+    background: linear-gradient(90deg, rgba(73,0,97,1) 0%, rgba(139,0,163,1) 50%, rgba(255,0,241,1) 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*----------HOVERS----------*/
+
+#search-button:hover {
+    background: linear-gradient(90deg, rgba(45,0,59,1) 0%, rgba(92,0,107,1) 50%, rgba(157,0,148,1) 100%);
+}
+
+.boton-comprar:hover {
+    background: linear-gradient(90deg, rgba(45,0,59,1) 0%, rgba(92,0,107,1) 50%, rgba(157,0,148,1) 100%);
+}
+
+/*------------------*/
+
+.producto img {
+    max-width: 25%;
+    height: auto;
+}
+
+.producto h2 {
+    margin-top: 0; /* Elimina el margen superior del título del producto */
+}

@@ -1,0 +1,82 @@
+/*---------------CABECERO---------------*/
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*---------------Estilo H1---------------*/
+h1 {
+    font-family: 'Nombre de la fuente', Sofia;
+    font-size: 225%;
+}
+
+/*---------------CSS MENÚ---------------*/
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Nombre de la fuente', Sofia;
+    font-size: 150%;
+}
+
+/*---------------PIE DE PÁGINA---------------*/
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 4px 0;
+    font-family: 'Nombre de la fuente', Sofia;
+    /* Forzar posición y anchura */
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
+
+#logo{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+.div_logo {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+#aire{
+    padding: 20px;
+}
+
+#buttonstyle{           
+        background-image: linear-gradient(to right, #333333 0%, #000000  51%, #141414  100%);
+        margin: auto;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+}
+
+#buttonstyle:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #161616;
+    text-decoration: none;
+  }
+
+  

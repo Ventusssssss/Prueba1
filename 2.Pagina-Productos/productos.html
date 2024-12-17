@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Ventas Marc</title>
+    <script src="barra-busqueda.js"></script>
+    <script src="../3.Pagina-Carrito/carrito.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style_general.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Marc</h1>
+        <nav>
+            <ul>
+                <li><a href="../1.Pagina-Inicio/inicio.html">Inicio</a></li>
+                <li><a href="../2.Pagina-Productos/productos.html">Productos</a></li>
+                <li><a href="../3.Pagina-Carrito/carrito.html">Carrito</a></li>
+                <li><a href="../4.Pagina-Registros/registro.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Buscar producto...">
+        <button id="search-button">Buscar</button>
+    </div>
+
+    <section class="productos">
+        <article class="producto">
+            <h2>XSPR-PRO</h2>
+            <img src="../10.Imagenes/cascos/1.xspr-pro.png" alt="xspr-pro">
+            <p>Precio: $799.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('XSPR-PRO', 799.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>NXR2</h2>
+            <img src="../10.Imagenes/cascos/2.nxr2.png" alt="nxr2">
+            <p>Precio: $499.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('NXR2', 499.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>GTAIR3</h2>
+            <img src="../10.Imagenes/cascos/3.gtair3.png" alt="gtair3">
+            <p>Precio: $599.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('GTAIR3', 599.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>NEOTEC3</h2>
+            <img src="../10.Imagenes/cascos/4.neotec3.png" alt="neotec3">
+            <p>Precio: $649.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('NEOTEC3', 649.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>JCRUISE2</h2>
+            <img src="../10.Imagenes/cascos/5.jcruise2.png" alt="jcruise2">
+            <p>Precio: $350.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('JCRUISE2', 350.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>EXZERO</h2>
+            <img src="../10.Imagenes/cascos/6.exzero.png" alt="exzero">
+            <p>Precio: $439.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('EXZERO', 439.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>GLAMSTER</h2>
+            <img src="../10.Imagenes/cascos/7.glamster.png" alt="glamster">
+            <p>Precio: $582.05</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('GLAMSTER', 582.05)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>JO</h2>
+            <img src="../10.Imagenes/cascos/8.jo.png" alt="jo">
+            <p>Precio: $305.15</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('JO', 305.15)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>VFX-WR-06</h2>
+            <img src="../10.Imagenes/cascos/9.vfx-wr-06.png" alt="vfx-wr-06">
+            <p>Precio: $539.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('VFX-WR-06', 539.00)">Añadir al Carrito</button>
+        </article>
+    
+        <article class="producto">
+            <h2>X-SPIRIT-3</h2>
+            <img src="../10.Imagenes/cascos/10.x-spirit-3.png" alt="x-spirit-3">
+            <p>Precio: $549.00</p>
+            <button class="boton-comprar" onclick="agregarAlCarrito('X-SPIRIT-3', 549.00)">Añadir al Carrito</button>
+        </article>
+    </section>
+    
+    <div id="aire"></div>
+    
+    <footer>
+        <div class="div_logo">
+            <p>&copy; Tienda diseñada por MGM 2023-2024</p>
+            <img src="../10.Imagenes/logo_r7_circular.jpg" alt="LOGO" id="logo">
+        </div>
+    </footer>
+</body>
+
+</html>

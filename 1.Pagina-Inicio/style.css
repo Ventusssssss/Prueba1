@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.extra_header {
+    text-align: center;
+    padding-top: 1px; 
+    padding-bottom: 10px;
+    background-color: #000000;
+}
+
+h2 {
+    font-family: 'Nombre de la fuente', Sofia;
+    font-size: 150%;
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#contenedor-imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor-imagenes img {
+    max-width: 100%;
+    height: auto;
+}

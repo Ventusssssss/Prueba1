@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../10.Imagenes/wallpaperbetter.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* Estilos para la tabla */
+#tabla-carrito {
+    color: rgb(255, 255, 255);
+    width: 80%; /* Modifiqué el ancho para que no ocupe toda la pantalla */
+    margin: 20px auto; /* Centrar la tabla */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    overflow: hidden; /* Asegura que el contenido dentro de la tabla no sobresalga de las esquinas redondeadas */
+}
+
+
+/* Estilos para las filas de la tabla */
+#tabla-carrito tr {
+    background-color: rgb(0, 0, 0, 0.8);  /* Fondo blanco para las filas */
+}
+
+/* Establecer ancho fijo para las columnas del encabezado */
+#tabla-carrito th {
+    width: 33%; /* Dividir igualmente el ancho entre las tres columnas */
+    border: 1px solid #ffffff; /* Añadí un borde para las celdas */
+    padding: 10px;
+}
+
+/* Estilos para las celdas de la tabla */
+#tabla-carrito td {
+    width: 33%; /* Dividir igualmente el ancho entre las tres columnas */
+    padding: 10px; /* Añadí un poco de espacio entre el contenido y el borde de las celdas */
+    text-align: center;
+    border: 1px solid #ffffff; /* Añadí un borde para las celdas */
+}
+
+/* Estilos para la primera fila (encabezado) de la tabla */
+#tabla-carrito thead tr {
+    background-color: rgb(0, 0, 0, 0.8); /* Color de fondo para el encabezado */
+    font-weight: bold; /* Fuente en negrita para el encabezado */
+}
+
+/* Estilos para el total */
+#totalcss {
+    color: rgb(255, 255, 255);
+    font-weight: bold; /* Hice que el total sea más destacado */
+    text-align: center; /* Centrar el total */
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    width: calc(20% - 20px);
+}
+
+/* Estilos para el carrito de compras */
+h1 {
+    text-align: center; /* Centrar el título 'Carrito de Compras' */
+    margin-top: 20px; /* Añadir margen superior para separar del título principal */
+}
+
+#tabla-carrito td button {
+    background: linear-gradient(90deg, rgba(73,0,97,1) 0%, rgba(139,0,163,1) 50%, rgba(255,0,241,1) 100%);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tabla-carrito td button:hover {
+    background: linear-gradient(90deg, rgba(45,0,59,1) 0%, rgba(92,0,107,1) 50%, rgba(157,0,148,1) 100%);
+}
+
+button {
+    background: linear-gradient(90deg, rgba(73,0,97,1) 0%, rgba(139,0,163,1) 50%, rgba(255,0,241,1) 100%);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgba(45,0,59,1) 0%, rgba(92,0,107,1) 50%, rgba(157,0,148,1) 100%);
+}

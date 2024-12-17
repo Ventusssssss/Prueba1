@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <script src="carrito.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style_general.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Marc</h1>
+        <nav>
+            <ul>
+                <li><a href="../1.Pagina-Inicio/inicio.html">Inicio</a></li>
+                <li><a href="../2.Pagina-Productos/productos.html">Productos</a></li>
+                <li><a href="../3.Pagina-Carrito/carrito.html">Carrito</a></li>
+                <li><a href="../4.Pagina-Registros/registro.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="aire"></div>
+    
+    <table id="tabla-carrito">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th><button id="buttonstyle" onclick="borrarCarrito()">Vaciar Carrito</button></th> <!-- Columna para el botón de eliminar -->
+            </tr>
+        </thead>
+        <tbody id="lista-carrito">
+            <!-- Aquí se agregarán los elementos del carrito -->
+        </tbody>
+    </table>
+    
+    <div id="centrador"> <p id="totalcss">Total: $<span id="total">0.00</span></p> </div>
+
+    <footer>
+        <div class="div_logo">
+            <p>&copy; Tienda diseñada por MGM 2023-2024</p>
+            <img src="../10.Imagenes/logo_r7_circular.jpg" alt="LOGO" id="logo">
+        </div>
+    </footer>
+</body>
+
+</html>
